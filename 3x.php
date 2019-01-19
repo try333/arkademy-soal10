@@ -1,14 +1,3 @@
-<!--?php 
-
-for($a = 1; $a <= $bin; $a++{
-        for ($b = 1; $b <= $a; $b++{
-echo"*";
-    }
-echo "
-";
-}
-
-?-->
 <?php 
 
 function draw_kotak($baris) 
