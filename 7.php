@@ -16,7 +16,11 @@ $result = $db->query($query);
 <head>
     <title>7 : Data List</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+<style>
+        .x{
+            font-weight: bold;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -25,9 +29,9 @@ $result = $db->query($query);
 
             <thead class="thead-dark">
             <tr>
-                <td scope="col">person_id</td>
-                <td scope="col">name</td>
-                <td scope="col">person_hobbies</td>
+                <th scope="col" class="x">person_id</td>
+                <th scope="col" class="x">name</td>
+                <th scope="col" class="x">person_hobbies</td>
             </tr>
             </thead>
             <?php while($row = $result->fetchArray()) {?>
