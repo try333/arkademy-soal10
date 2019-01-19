@@ -1,0 +1,21 @@
+<script>
+usn="bigboss_";
+pwd="qazW_123";
+
+if(usn.length==8 && usn.replace(/[^A-Z]/g, "").length==0 && 
+	pwd.length==8 && pwd.replace(/[^A-Z]/g, "").length>=1 && pwd.replace(/[^a-z]/g, "").length>=1 && pwd.replace(/[^0-9]/g, "").length>=1 && (pwd.match(/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/g) || []).length==1)
+{
+    x=true;
+}
+else{
+    x=false; 
+}
+
+if(x==true){
+	alert("success");
+}
+else{
+	alert("failed");
+}
+
+</script>
