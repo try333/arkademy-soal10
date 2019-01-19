@@ -1,0 +1,13 @@
+{
+    "name": "onichan/arka2",
+    "authors": [
+        {
+            "name": "Tri Hariadi",
+            "email": "triumpar@gmail.com"
+        }
+    ],
+    "require": {},
+	"scripts": {
+    	"server": "php -S localhost:8080"
+    }
+}
